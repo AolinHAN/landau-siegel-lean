@@ -1,0 +1,9 @@
+{
+  "source": "OpenAI - Uniform exclusion of Landau–Siegel zeros.pdf",
+  "sha256": "fab9f6e84ece2a37d834b2c031d8eb14e81413d9f6270791e7b5468b295214ef",
+  "pdf_pages": 9,
+  "source_date": "2026-10-01",
+  "lean": "leanprover/lean4:v4.30.0",
+  "mathlib_revision": "c5ea00351c28e24afc9f0f84379aa41082b1188f",
+  "status": "All numbered paper results, displayed formulas, Remark 5 and the complete main theorem dependency chain proved; see status.json and PAPER_COVERAGE.md"
+}

@@ -1,0 +1,56 @@
+⚠ [8511/8572] Replayed Siegel.MainReduction
+warning: Siegel/MainReduction.lean:67:27: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [8518/8572] Replayed Siegel.CanonicalFactorBounds
+warning: Siegel/CanonicalFactorBounds.lean:21:98: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Siegel/CanonicalFactorBounds.lean:23:70: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [8519/8572] Replayed Siegel.CanonicalZeroRemoval
+warning: Siegel/CanonicalZeroRemoval.lean:115:52: unused variable `hR`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [8521/8572] Replayed Siegel.HolomorphicLog
+warning: Siegel/HolomorphicLog.lean:33:6: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+⚠ [8523/8572] Replayed Siegel.DiskRegularPart
+warning: Siegel/DiskRegularPart.lean:14:13: unused variable `hM`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [8536/8572] Replayed Siegel.LogDerivativeVariation
+warning: Siegel/LogDerivativeVariation.lean:45:23: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Siegel/LogDerivativeVariation.lean:64:21: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Siegel/LogDerivativeVariation.lean:64:36: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [8542/8572] Replayed Siegel.GlobalLogDerivativeLimit
+warning: Siegel/GlobalLogDerivativeLimit.lean:42:20: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [8545/8572] Replayed Siegel.CompletedLFunction
+info: Siegel/CompletedLFunction.lean:62:6: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+warning: Siegel/CompletedLFunction.lean:87:54: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+⚠ [8547/8572] Replayed Siegel.CompletedLogDerivative
+warning: Siegel/CompletedLogDerivative.lean:74:51: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: Siegel/CompletedLogDerivative.lean:100:67: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+✔ [8571/8572] Built Siegel (55s)
+Build completed successfully (8572 jobs).
