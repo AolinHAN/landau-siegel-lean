@@ -1,0 +1,14 @@
+name = "siegel"
+version = "0.1.0"
+defaultTargets = ["Siegel"]
+
+[leanOptions]
+autoImplicit = false
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4"
+rev = "v4.30.0"
+
+[[lean_lib]]
+name = "Siegel"

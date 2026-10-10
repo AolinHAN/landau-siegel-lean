@@ -1,0 +1,14 @@
+.lake/
+tmp/
+*.olean
+*.ilean
+*.trace
+.DS_Store
+__pycache__/
+*.py[cod]
+
+# Separate papers, outside this Lean project.
+OpenAI - The Quasi-RH*.pdf
+
+# Superseded development-session log; current audit logs are tracked.
+verification/latest-run.log
